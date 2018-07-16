@@ -6,13 +6,22 @@
 #version        :0.2   
 #usage		    :bash SyncFonts.sh
 
+echo "Please copy and paste the path of your sync fonts folder:"
+echo "Ex: /home/user/MEGAsync/Fonts/"
+read SyncFolder
+
+if [ ! -d $SyncFolder ];
+then
+    echo "Directory not found."
+    exit
+fi
+
 LocalFontsFolder="$HOME/.fonts/"
-MegaSyncFolder="$HOME/MEGAsync/Fonts/"
 
 copy_files() {
-    for i in $MegaSyncFolder
+    for i in $SyncFolder
     do
-        cp -R -T -u "$MegaSyncFolder" "$LocalFontsFolder"
+        cp -R -T -u "$SyncFolder" "$LocalFontsFolder"
     done
 
     #Check if the files were copied successfully
