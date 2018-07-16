@@ -9,7 +9,7 @@ Git clone this repository or download as a zip file.
 ```
 git clone https://github.com/drom98/SyncFontsScript.git
 ```
-Execute the .sh file
+Execute the .sh file:
 ```
 ./SyncFonts.sh
 ```

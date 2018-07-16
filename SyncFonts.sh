@@ -3,7 +3,7 @@
 #description    :Automatically installs fonts from Sync Client folder
 #author		    :drom98
 #date           :20180716
-#version        :0.1   
+#version        :0.2   
 #usage		    :bash SyncFonts.sh
 
 LocalFontsFolder="$HOME/.fonts/"
