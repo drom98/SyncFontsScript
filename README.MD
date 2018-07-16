@@ -17,8 +17,6 @@ Execute the .sh file:
 
 * **Diogo Oliveira** - [drom98](https://github.com/drom98)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
